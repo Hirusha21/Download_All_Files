@@ -32,7 +32,7 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* Bruno Sobrino
 ║➤ *Numero:* wa.me/94755681801
-║➤ *Bot ofc:* wa.me/94755681801
+║➤ *Bot ofc:* wa.me/529993404349
 ║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
@@ -333,7 +333,6 @@ ${readMore}
 ┣ ඬ⃟ 👾 _${usedPrefix}cosplay_
 ┗━━━━━━━━━━━━━━━━━━━┛
 
-
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝔻𝔼 𝔸𝕌𝔻𝕀𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -588,10 +587,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '👑 *Hirusha* 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
+sourceUrl: `https://geekhirusha.orgfree.com`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
