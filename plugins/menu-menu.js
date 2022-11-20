@@ -32,7 +32,7 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* Bruno Sobrino
 ║➤ *Numero:* wa.me/94755681801
-║➤ *Bot ofc:* wa.me/529993404349
+║➤ *Bot ofc:* wa.me/94755681801
 ║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
