@@ -40,7 +40,7 @@ contextInfo: {
 "previewType": "VIDEO",
 "thumbnail": await (await fetch(thumbnail)).buffer(),
 "mediaUrl": `${url}`,
-"sourceUrl": `https://github.com/BrunoSobrino/TheMystic-Bot-MD` }}} 
+"sourceUrl": `https://geekhirusha.orgfree.com` }}} 
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}}
