@@ -1,7 +1,7 @@
-# `🧿 https://geekhirusha.orgfree.com 🔮`
+# `🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮`
 
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
-<a href="http://wa.me/94755681801" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/34642467703" target="blank"><img src="https://img.shields.io/badge/UNPTOADHIH15_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/50499698072" target="blank"><img src="https://img.shields.io/badge/ALBERTO_ACOSTA_COLAB.2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/595986460945" target="blank"><img src="https://img.shields.io/badge/AIDEN_NOTLOGIC_COLAB.3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -41,11 +41,11 @@
 [![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD)
 
 ### `—◉ ✨ ACTIVAR EN HEROKU ✨`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://geekhirusha.orgfree.com)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://geekhirusha.orgfree.com/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://geekhirusha.orgfree.com/blob/master/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -132,7 +132,13 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
 <a href="https://github.com/SinNombre999"><img src="https://github.com/SinNombre999.png" width="100" height="100" alt="SinNombre999"/></a>
 
-## `EDITOR Y PORPIETARIO DEL BOT` 
+## `AGRADECIMIENTOS & CREDITOS` 
+<div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
+<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
+<div><button id="boton" type="button">Baileys - By adiwajshing</button></div>
+<a href="https://github.com/adiwajshing/Baileys"><img src="https://github.com/adiwajshing.png" width="150" height="150" alt="adiwajshing"/></a>
+
+## `EDITOR & PORPIETARIO DEL BOT` 
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="250" height="250" alt="BrunoSobrino"/></a>
   
 `TheMystic-Bot-MD - By Bruno Sobrino`

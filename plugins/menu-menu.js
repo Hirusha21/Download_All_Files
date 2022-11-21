@@ -31,7 +31,7 @@ let str = `
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* Bruno Sobrino
-║➤ *Numero:* wa.me/94755681801
+║➤ *Numero:* wa.me/5219992095479
 ║➤ *Bot ofc:* wa.me/529993404349
 ║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
 ║➤ *Fecha:* ${date}
@@ -333,6 +333,43 @@ ${readMore}
 ┣ ඬ⃟ 👾 _${usedPrefix}cosplay_
 ┗━━━━━━━━━━━━━━━━━━━┛
 
+
+┏━━━━━━━━━━━━━━━━━━━┓
+┃ *< ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 🔞 _${usedPrefix}pack_
+┣ ඬ⃟ 🔞 _${usedPrefix}pack2_
+┣ ඬ⃟ 🔞 _${usedPrefix}pack3_
+┣ ඬ⃟ 🔞 _${usedPrefix}videoxxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}videolesbixxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}tiktokxxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}tetas_
+┣ ඬ⃟ 🔞 _${usedPrefix}booty_
+┣ ඬ⃟ 🔞 _${usedPrefix}ecchi_
+┣ ඬ⃟ 🔞 _${usedPrefix}furro_
+┣ ඬ⃟ 🔞 _${usedPrefix}imagenlesbians_
+┣ ඬ⃟ 🔞 _${usedPrefix}panties_
+┣ ඬ⃟ 🔞 _${usedPrefix}pene_
+┣ ඬ⃟ 🔞 _${usedPrefix}porno_
+┣ ඬ⃟ 🔞 _${usedPrefix}randomxxx_
+┣ ඬ⃟ 🔞 _${usedPrefix}pechos_
+┣ ඬ⃟ 🔞 _${usedPrefix}yaoi_
+┣ ඬ⃟ 🔞 _${usedPrefix}yaoi2_
+┣ ඬ⃟ 🔞 _${usedPrefix}yuri_
+┣ ඬ⃟ 🔞 _${usedPrefix}yuri2_
+┣ ඬ⃟ 🔞 _${usedPrefix}trapito_
+┣ ඬ⃟ 🔞 _${usedPrefix}hentai_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwloli_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfworgy_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwfoot_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwass_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwbdsm_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwcum_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwero_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwfemdom_
+┣ ඬ⃟ 🔞 _${usedPrefix}nsfwglass_
+┗━━━━━━━━━━━━━━━━━━━┛
+
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝔻𝔼 𝔸𝕌𝔻𝕀𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -458,18 +495,24 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┃ *< ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💵 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
+┣ ඬ⃟ 💵 _${usedPrefix}adventure_
+┣ ඬ⃟ 💵 _${usedPrefix}cazar_
+┣ ඬ⃟ 💵 _${usedPrefix}cofre_
 ┣ ඬ⃟ 💵 _${usedPrefix}balance_
 ┣ ඬ⃟ 💵 _${usedPrefix}claim_
+┣ ඬ⃟ 💵 _${usedPrefix}heal_
 ┣ ඬ⃟ 💵 _${usedPrefix}lb_
 ┣ ඬ⃟ 💵 _${usedPrefix}levelup_
 ┣ ඬ⃟ 💵 _${usedPrefix}myns_
 ┣ ඬ⃟ 💵 _${usedPrefix}perfil_
 ┣ ඬ⃟ 💵 _${usedPrefix}work_
 ┣ ඬ⃟ 💵 _${usedPrefix}minar_
+┣ ඬ⃟ 💵 _${usedPrefix}minar2_
 ┣ ඬ⃟ 💵 _${usedPrefix}buy_
 ┣ ඬ⃟ 💵 _${usedPrefix}buyall_
 ┣ ඬ⃟ 💵 _${usedPrefix}verificar_
+┣ ඬ⃟ 💵 _${usedPrefix}robar *<cantidad> <@tag>*_
+┣ ඬ⃟ 💵 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 ┣ ඬ⃟ 💵 _${usedPrefix}unreg *<numero de serie>*_
 ┗━━━━━━━━━━━━━━━━━━━┛
 
@@ -587,10 +630,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 *Hirusha* 👑',
+title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://geekhirusha.orgfree.com`
+sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

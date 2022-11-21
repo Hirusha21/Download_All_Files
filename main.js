@@ -15,11 +15,12 @@ import syntaxerror from 'syntax-error';
 import { tmpdir } from 'os';
 import { format } from 'util';
 import P from 'pino';
+import pino from 'pino';
 import { makeWASocket, protoType, serialize } from './lib/simple.js';
 import { Low, JSONFile } from 'lowdb';
 import { mongoDB, mongoDBV2 } from './lib/mongoDB.js';
 import store from './lib/store.js'
-const { DisconnectReason, useMultiFileAuthState } = await import('@adiwajshing/baileys')
+const { DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, makeInMemoryStore, Browsers } = await import('@adiwajshing/baileys')
 const { CONNECTING } = ws
 const { chain } = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
@@ -68,22 +69,24 @@ loadDatabase()
 global.authFile = `MysticSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 
+const msgRetryCounterMap = {}
+const { version: WAVersion } = await fetchLatestBaileysVersion()
+const optss = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+
 const connectionOptions = {
+version: WAVersion,
 printQRInTerminal: true,
+logger: pino({ level: 'silent' }),
+msgRetryCounterMap,
 auth: state,
-logger: P({ level: 'silent'}),
-browser: ['TheMystic-Bot','Safari','1.0.0']
+browser: ['MysticBot','Safari','9.7.0'],
+getMessage: async (key) => (
+optss.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) || 
+optss.store.loadMessage(/** @type {string} */(key.id)) || {}
+).message || { conversation: 'Please send messages again' }
 }
 
 global.conn = makeWASocket(connectionOptions)
-/* Solucion mensajes en espera */
-//global.conn = makeWASocket({ ...connectionOptions, ...opts.connectionOptions,
-//getMessage: async (key) => (
-//opts.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) ||
-//opts.store.loadMessage(/** @type {string} */(key.id)) || {}
-//).message || { conversation: 'Please send messages again' },
-//})
-
 conn.isInit = false
 
 if (!opts['test']) {
@@ -135,6 +138,7 @@ return false })}
 
 async function connectionUpdate(update) {
 const { connection, lastDisconnect, isNewLogin } = update
+global.stopped = connection    
 if (isNewLogin) conn.isInit = true
 const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
 if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
@@ -142,8 +146,13 @@ console.log(await global.reloadHandler(true).catch(console.error))
 global.timestamp.connect = new Date
 }
 if (global.db.data == null) loadDatabase()
+if (update.qr != 0 && update.qr != undefined) {
+console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'))
+}
 if (connection == 'open') {
 console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))}
+if (connection == 'close') {
+console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`))}
 }
 
 process.on('uncaughtException', console.error)
@@ -266,6 +275,7 @@ let s = global.support = { ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, fin
 Object.freeze(global.support)
 }
 setInterval(async () => {
+if (global.stopped == 'close') return
 var a = await clearTmp()
 console.log(chalk.cyanBright(`\n▣─────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁𝚃𝙼𝙿 ]────────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣─────────────────────────────────────···\n`))
 }, 180000)
